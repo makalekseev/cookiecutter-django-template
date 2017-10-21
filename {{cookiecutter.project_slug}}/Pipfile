@@ -1,0 +1,41 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = {extras = ["argon2"], version = "*"}
+requests = "*"
+mysqlclient = "*"
+django-environ = "*"
+raven = "*"
+whitenoise = "*"
+rcssmin = "*"
+django-compressor = "*"
+"django-allauth" = "*"
+"django-autoslug" = "*"
+"awesome-slugify" = "*"
+libsass = "*"
+django-libsass = "*"
+
+[dev-packages]
+
+isort = "*"
+"flake8" = "*"
+"autopep8" = "*"
+ipython = "*"
+django-debug-toolbar = "*"
+coverage = "*"
+django-coverage-plugin = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-sugar = "*"
+pytest-cov = "*"
+
+
+[requires]
+
+python_version = "3.6"
